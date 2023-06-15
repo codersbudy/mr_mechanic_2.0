@@ -1,0 +1,19 @@
+.view{
+    width: 90%;
+    height: 42px;
+    font-weight: 100;
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    text-size-adjust: 100%;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family: Montserrat;
+    padding-bottom: 2vw;
+    background-color: #42C8B7;
+    color: white;
+}
+
+.srNumber{
+    font-weight: bold;
+}

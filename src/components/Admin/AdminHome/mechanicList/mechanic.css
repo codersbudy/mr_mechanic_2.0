@@ -1,0 +1,93 @@
+.profilecard {
+  margin-top: 10px;
+  margin-left: 10vh;
+  margin-bottom: 40px;
+  width: 240px;
+  height: 320px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.style1 {
+  text-align: center;
+  color: #42c8b7;
+  font-size: 15px;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-top: 5px;
+  /* background-color: red; */
+}
+.style2 {
+  text-align: center;
+  font: black;
+  font-size: 15px;
+  font-family: Montserrat;
+  /* font-weight: bold; */
+}
+.card-border-top {
+  height: 127px;
+  width: 120px;
+  /* background-color: blue; */
+  margin: auto;
+}
+
+/* .profilecard .card-border-top {
+  width: 60%;
+  height: 3%;
+  background: #42c8b7;
+  margin: auto;F
+  border-radius: 0px 0px 15px 15px;
+} */
+
+.profilecard span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+}
+.image {
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  /* position: absolute; */
+  /* margin-top: -30%; */
+}
+.profilecard .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 12px;
+}
+.profilecard .img {
+  width: 120px;
+  height: 140px;
+  background: gray;
+  border-radius: 15px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.profilecard button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  /* margin-top: 30px; */
+  background: #42c8b7;
+  color: white;
+  font-weight: 600;
+}
+.img {
+  size: 30px;
+}
+.profilecard button:hover {
+  background: #03edce;
+}
+.mml {
+  margin-left: 2vh;
+}

@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+.hero-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  margin-left: 9%;
+}
+
+.anchor {
+  color: inherit;
+  text-decoration: none;
+}
+
+.h1-n {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.h2-n {
+  font-size: 14px;
+}
+
+.p-n {
+  margin-top: -4%;
+  padding-top: 0;
+  font-size: 14px;
+  color: black;
+}
+.card-container {
+  width: 90%;
+  padding: 10px;
+  margin: 2em auto;
+  border-radius: 15px;
+  border: 2px solid rgb(0, 159, 170);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.rat {
+  margin-top: 15px;
+  border-top: 2px solid rgb(249, 248, 248);
+  border-bottom: 2px solid rgb(247, 245, 245);
+  padding-top: 10px;
+  background-color: #00928d;
+}
+.rat-div-m {
+  padding-top: 3px;
+  padding-left: 5px;
+}
+.ratings-m {
+  width: 60px !important;
+}
+.hero-image-container {
+  margin-top: 10px;
+  position: relative;
+  display: block;
+  width: 195px;
+  height: 190px;
+}
+
+.hero-image-container img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.btnAdmin {
+  position: relative;
+  outline: 0;
+  border: 1px solid transparent;
+  background-color: #488aec;
+  color: #ffffff;
+  font-size: 0.75rem;
+  line-height: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+}
+
+.btnAdmin span {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  transition: all 0.4s ease;
+}
+
+.btnAdmin span:nth-child(2),
+.btnAdmin span:nth-child(3) {
+  position: absolute;
+  top: 40px;
+  color: #fff;
+}
+
+.btnAdmin span:nth-child(2) {
+  background-color: #488aec;
+}
+
+.btnAdmin span:nth-child(3) {
+  background-color: #488aec;
+}
+
+.btnAdmin:hover {
+  box-shadow: 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17;
+}
+
+.btnAdmin:hover span:nth-child(2),
+.btnAdmin:focus span:nth-child(3) {
+  top: 0;
+}
+
+.btnAdmin:focus {
+  box-shadow: none;
+}
+
+.bg-nm {
+  background-color: red !important;
+  border: 1px solid white;
+}
+
+@media (min-width: 400px) {
+  img.eye {
+    max-width: 3em;
+  }
+}
+
+.hero-image-container::after {
+  content: "";
+  background-image: url("https://i.postimg.cc/9MtT4GZY/view.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  background-color: hsla(178, 100%, 50%, 0.3);
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+  margin-left: 20px;
+}
+
+.hero-image-container:hover::after {
+  opacity: 1;
+}
+
+

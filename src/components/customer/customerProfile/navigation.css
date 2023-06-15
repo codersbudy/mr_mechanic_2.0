@@ -1,0 +1,276 @@
+.logo {
+    height: 55px;
+}
+
+.cbtn,
+.fbtn,
+.loginBtn {
+    margin: 3px;
+    padding: 0;
+    background-color: #42C8B7;
+    padding: 3px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    /* color: white !important; */
+    font-family: Montserrat;
+    border: none;
+}
+.cbtn:hover,
+.fbtn:hover,
+.loginBtn:hover {
+    background-color: #3CB0A2;
+}
+
+.edit-check:checked+.edit,
+.edit.active,
+.edit.show,
+.edit:first-child:active,
+:not(.edit-check)+.edit:active {
+    background-color:transparent
+}
+
+.nav-item {
+    margin-left: 30px;
+    margin-top: 8px;
+
+}
+
+.ff,
+.navOption {
+    font-size: 15px;
+    line-height: 30px;
+    font-family: Montserrat;
+    color: inherit;
+
+}
+
+.navOption:hover {
+    color: #3CB0A2;
+    cursor: pointer;
+}
+
+.dropIcon {
+    width: 30px;
+}
+
+.nac {
+    background-color: blue;
+}
+
+.a {
+    padding: 0px 50px;
+}
+
+
+.fa-map-marker {
+    font-size: 20px !important;
+}
+
+/* _________________view_profile______________________________ */
+
+.viewProfile {
+
+    position: absolute;
+    width: 300px;
+    height: 340px;
+    z-index: 10;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 17px;
+    display: none;
+    font-size: small;
+    box-shadow: 1px 1px 2px black;
+    left:75%;
+    top: 80%;
+}
+.closeBtn:active,
+.edit :active{
+    color: #3CB0A2;
+}
+.profileImg {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid #42C8B7   ;
+}
+
+
+.viewProfile input{
+    padding: 3px;
+    border: none;
+    background-color:transparent    ;
+}
+.viewProfile input:focus{
+     outline: none;
+}
+#file{
+    width: 100px;
+    height: 100px;
+    opacity:0;
+    background-color: brown;
+    border-radius:50%;   
+    position: absolute; 
+    margin-left:-100px;
+  }
+
+
+.file{
+   align-items: center ;
+}
+.viewProfile input {
+    color: #3CB0A2;
+    font-weight: bold;
+}
+.closeBtn{
+    position: absolute;
+    left : 90%;
+    cursor: pointer;
+    border: none;
+
+    
+}
+.contectBtn{
+    color: gray !important;
+    border: none;
+    background-color: none;
+    
+}
+.usercontact{
+    width: 150px;
+}
+.contectBtn :active{
+    cursor: pointer;
+    background-color: transparent;
+   border: none;
+    font-size: 1.5em;
+}
+.edit {
+    cursor: pointer;
+    background-color: transparent;
+   border: none;
+    font-size: 1.5em;
+}
+#signout{
+    left: 0% !important;
+}
+#save{
+   margin-left: 20px !important;
+}
+
+#signout,
+#save{
+    color: white;
+    font-size: 12px;
+    padding: 5px 20px;
+    width: 100px;
+}
+
+/* -------------------view_profile_end----------------------- */
+
+/* ===================================Footer=========================================== */
+.footer {
+    background-color: whitesmoke;
+    padding: 30px 100px;
+}
+
+.fhead {
+    font-weight: bold;
+    margin-bottom: 30px;
+    /* font-size: 19px; */
+}
+
+.d {
+    line-height: 35px;
+}
+
+.flogo {
+    height: 38px;
+}
+
+.fbtn {
+    width: 65%;
+    margin-top: 20px;
+}
+
+.Copyright {
+    padding: 1.5% 8%;
+    /* background-color: whitesmoke; */
+    font-size: 13px;
+}
+
+/* ========================================================================================== */
+.carousel-caption{
+
+text-align: left;
+margin-bottom: 35vh;
+color: #3CB0A2;
+margin-left: -55px;
+padding: 0;
+font-family: Montserrat ;
+width: 40%;
+
+}
+.cbtn{
+width: 50%;
+margin-top: 15px;
+
+}
+
+.carousel-dark .carousel-caption {
+    color: #fff;
+}   
+h5{
+    
+    font-size: 40px;
+    color: #42C8B7;
+    text-shadow: 1px 1px 1px  black;
+    margin-bottom: 12px;
+
+}
+
+/* ========================================================================================== */
+
+@media screen and (min-width: 992px) {
+    .sliders{
+        height: 85vh;
+        width: 80%;
+    }
+    .nav {
+        height: 85px;
+    }
+
+    .logo {
+        height: 55px;
+    }
+
+    .flogo {
+        height: 55px;
+    }
+
+    .navRight {
+        display: flex;
+        justify-content: right;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .logo {
+        height: 40px;
+    }
+
+    
+.a {
+    padding: 0px 10px;
+}
+}
+
+/* ....... */
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #42C8B7;
+}

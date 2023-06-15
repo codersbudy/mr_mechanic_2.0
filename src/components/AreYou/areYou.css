@@ -1,0 +1,71 @@
+.main-banner {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 80px 95px 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-banner:after {
+  content: "";
+  /* background-image: url("../images/img1.jpg");
+               background-repeat: no-repeat;
+               background-size: contain; */
+  /* background-image: linear-gradient(to bottom, #ffffff, #e0edff, #a8e1fd, #5ed6e6, #00c9b7); */
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  background: -webkit-linear-gradient(
+    left,
+    transparent 0%,
+    #fff 50%,
+    transparent 
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.main-banner .left-content {
+  margin-right: 15px;
+}
+
+.main-banner .left-content h2 {
+  z-index: 2;
+  position: relative;
+  font-weight: 700;
+  line-height: 70px;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.main-banner .left-content p {
+  margin-bottom: 45px;
+  color: #2a2a2a;
+  font-weight: 400;
+}
+
+.main-banner .left-content .first-button {
+  margin-right: 15px;
+}
+
+.main-banner .left-content .white-button {
+  display: inline-block;
+}
+
+.main-banner .right-image {
+  text-align: center;
+  position: relative;
+  z-index: 20;
+}
+
+.main-banner .right-image img {
+  max-width: 710px;
+}
+
+.main-banner .left-content .white-button a {
+  background-color: #4b8ef1;
+  color: #fff !important;
+}
